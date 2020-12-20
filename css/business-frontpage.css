@@ -17,3 +17,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.about {
+    background-color: rgb(18, 5, 54) !important;
+}
