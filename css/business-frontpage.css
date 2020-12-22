@@ -1,15 +1,29 @@
-/*!
- * Start Bootstrap - Business Frontpage (https://startbootstrap.com/template/business-frontpage)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
- */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Chivo&family=Faustina&family=Russo+One&family=Volkhov&display=swap');
+@media(min-width: 768px) {
+    .vision_mission {
+        display: flex;
+        text-align: center;
+    }
+}
 
 body {
     padding-top: 56px;
 }
 
+.welcome {
+    color: red;
+}
+
+.welcome_text {
+    font-family: Chivo;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(229, 255, 0) !important;
+}
+
 .navbar-brand {
     font-weight: 700;
+    color: rgb(51, 255, 0) !important;
 }
 
 .business_image {
@@ -19,5 +33,97 @@ body {
 }
 
 .about {
-    background-color: rgb(18, 5, 54) !important;
+    background-color: rgb(2, 66, 104) !important;
+}
+
+.line {
+    width: 80%;
+    height: 6px;
+    background-color: rgb(9, 155, 240);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.heading_one {
+    font-family: Anton;
+}
+
+.heading_one span {
+    color: rgb(51, 255, 0);
+    font-size: larger;
+    text-align: center;
+}
+
+.about {
+    font-family: Russo;
+}
+
+.about_text {
+    font-family: Arial;
+}
+
+.vision_mission h3 {
+    font-family: Anton;
+    margin-top: 5px;
+    margin-bottom: 1.6rem;
+}
+
+.mission {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid whitesmoke;
+    font-family: Chivo;
+    font-weight: 500;
+}
+
+.vission {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid whitesmoke;
+    font-family: Chivo;
+    height: 40vh;
+    font-weight: 500;
+}
+
+.footer {
+    background: #152f4f;
+    color: white;
+    .links {
+        ul {
+            list-style-type: none;
+        }
+        li a {
+            color: white;
+            transition: color 0.2s;
+            &:hover {
+                text-decoration: none;
+                color: #4180cb;
+            }
+        }
+    }
+    .about-company {
+        i {
+            font-size: 25px;
+        }
+        a {
+            color: white;
+            transition: color 0.2s;
+            &:hover {
+                color: #4180cb;
+            }
+        }
+    }
+    .location {
+        i {
+            font-size: 18px;
+        }
+    }
+    .copyright p {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+.footer_links a {
+    color: white !important;
+    text-decoration: none;
 }
