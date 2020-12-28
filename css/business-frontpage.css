@@ -1,24 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Chivo&family=Faustina&family=Russo+One&family=Volkhov&display=swap');
-@media(min-width: 768px) {
+@media(min-width: 920px) {
     .vision_mission {
         display: flex;
         text-align: center;
+    }
+    .marine,
+    .oil_gas,
+    .mines {
+        display: flex;
+        text-align: center;
+        margin: 0 6.8rem 0 6.8rem;
     }
 }
 
 body {
     padding-top: 56px;
+    background-color: rgb(226, 222, 217);
 }
 
 .welcome {
     color: red;
 }
 
+.promise {
+    text-align: center;
+}
+
+.promise h2 {
+    color: rgb(10, 12, 165);
+    font-size: 2.1rem;
+}
+
 .welcome_text {
     font-family: Chivo;
     font-size: 1.3rem;
     font-weight: 500;
-    color: rgb(229, 255, 0) !important;
+    color: rgb(221, 193, 35) !important;
 }
 
 .navbar-brand {
@@ -33,7 +50,10 @@ body {
 }
 
 .about {
-    background-color: rgb(2, 66, 104) !important;
+    background-image: linear-gradient(rgb(0, 255, 64), rgb(34, 34, 122));
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .line {
@@ -56,10 +76,21 @@ body {
 
 .about {
     font-family: Russo;
+    height: 50vh;
 }
 
 .about_text {
-    font-family: Arial;
+    font-family: Chivo;
+    margin-left: 6.8rem;
+    margin-right: 6.8rem;
+    margin-top: 5rem;
+    border: 2px solid whitesmoke;
+    padding: 3rem;
+}
+
+.mission,
+.vission {
+    background-color: rgb(2, 66, 104);
 }
 
 .vision_mission h3 {
@@ -69,20 +100,147 @@ body {
 }
 
 .mission {
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     border: 2px solid whitesmoke;
     font-family: Chivo;
     font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.mission h3,
+.vission h3 {
+    padding-top: 2rem;
 }
 
 .vission {
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
     border: 2px solid whitesmoke;
     font-family: Chivo;
-    height: 40vh;
+    height: 60vh;
     font-weight: 500;
+    font-size: 1.3rem;
+    overflow: auto;
+    color: white;
+}
+
+.footer_links a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.services {
+    width: 100%;
+    height: 60vh;
+    border: 2px solid rgb(174, 255, 107);
+    background-image: linear-gradient(rgb(0, 255, 64), rgb(34, 34, 122));
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.services h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    font-family: Russo;
+    font-size: 3.3rem;
+    font-weight: 600;
+}
+
+.box1 {
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url("../images/mines.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.box1 p,
+.marine_box1 p,
+.oil_gas_box2 p {
+    visibility: hidden;
+}
+
+.box2,
+.marine_box2,
+.oil_gas_box1 {
+    background-color: rgb(2, 66, 104);
+    height: 60vh;
+    color: white;
+    text-align: center;
+}
+
+.box2 p,
+.marine_box2 p,
+.oil_gas_box1 {
+    color: white;
+    padding: 3rem;
+    font-size: larger;
+    padding-top: 1rem;
+    overflow: auto;
+}
+
+.box2 h3,
+.marine_box2 h3,
+.oil_gas_box1 h3 {
+    margin-top: 1rem;
+}
+
+.marine_box1 {
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url("../images/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.oil_gas_box2 {
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url("../images/rig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.tecthnical_services {
+    text-align: center;
+    margin: 0 6.8rem 0 6.8rem;
+    color: white;
+    background-color: rgb(2, 66, 104);
+}
+
+.contact {
+    text-align: center;
+    margin: 0 6.8rem 0 6.8rem;
+    color: white;
+    background-color: rgb(2, 66, 104);
+    font-size: 1.5rem;
+    height: 50vh;
+}
+
+.address {
+    padding: 0.5rem;
+}
+
+.tecthnical_services h2 {
+    color: rgb(125, 223, 35);
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tecthnical_services p {
+    padding: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .footer {
@@ -121,9 +279,4 @@ body {
     .copyright p {
         border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
-}
-
-.footer_links a {
-    color: white !important;
-    text-decoration: none;
 }
