@@ -52,7 +52,15 @@ body {
 
 .navbar-brand {
     font-weight: 700;
-    color: rgb(51, 255, 0) !important;
+    color: rgb(8, 223, 19) !important;
+}
+
+.navebar_color {
+    background-color: #0d0516 !important;
+}
+
+.navbar-brand img {
+    width: 35px;
 }
 
 .business_image {
@@ -94,6 +102,7 @@ body {
 .about {
     font-family: Russo;
     height: 50vh;
+    font-size: 1.3rem;
 }
 
 .about_text {
@@ -114,7 +123,7 @@ body {
 .vision_mission h3 {
     font-family: serif;
     margin-top: 5px;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.3rem;
 }
 
 .mission,
@@ -126,7 +135,7 @@ body {
     font-family: sans-serif;
     height: 45vh;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     overflow: auto;
     color: white;
     text-align: center;
