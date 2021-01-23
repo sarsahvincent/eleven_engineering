@@ -363,11 +363,11 @@ body {
 }
 
 .qualification {
-    width: 80rem;
     align-items: center;
     padding-top: 2rem;
     height: 10rem;
     margin-bottom: 4rem;
+    text-align: justify;
 }
 
 .traianing_borders {
